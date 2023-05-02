@@ -27,11 +27,14 @@ const usersSchema = new  mongoose.Schema(
 );
 
 usersSchema
-.virtual('')
-// getter
-.get(function () {
-    return
-})
+    .virtual('user')
+    // getter
+    .get(function () {
+        return `${usersSchema.Schema}`;
+    })
+    .set(function (){
+
+    })
 
 const User = mongoose.model('User', usersSchema)
 modeule.exports = User;
