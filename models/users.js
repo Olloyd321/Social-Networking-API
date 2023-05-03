@@ -15,18 +15,16 @@ const usersSchema = new  mongoose.Schema(
             unique: true,
 
         },
-
-        thoughts:{
-            [{ type: mongoose.Schema.Types.ObjectId, ref: 'thoughts' }]
-});
-        },
-
-        friends:{
-            [{ type: mongoose.Schema.Types.ObjectId, ref: 'users' }]
-
-        },
-    }
-);
+        thoughts: [{
+            type: mongoose.Schema.Types.ObjectId,
+            ref: 'Thoughts'
+          }],
+          friends: [{
+            type: mongoose.Schema.Types.ObjectId,
+            ref: 'Users'
+          }]
+    });
+        
 
 usersSchema
     .virtual('user')
