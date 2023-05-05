@@ -13,6 +13,7 @@ My first API created for social networking.
 * [Contributing](#contributing) 
 * [Tests](#tests)
 * [Questions](#questions)
+* [Walkthrough](#Walkthrough)
 
 ## Installation 
 
@@ -32,6 +33,10 @@ This Project is licensed under the MIT license.
 
 ## Contributing
 
+## Walkthrough
+
+
+https://user-images.githubusercontent.com/119633009/236378979-2c98fc32-5a44-434a-9f17-ec52b39333b0.mp4
 
 
 ## Tests
